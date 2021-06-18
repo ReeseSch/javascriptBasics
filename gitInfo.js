@@ -46,7 +46,10 @@ const init = {
 */
 
 //CODE HERE
-
+const clone = {
+    description: `creates a copy from a repository`,
+    code: `git clone REPO_URL`
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -54,7 +57,10 @@ const init = {
 */
 
 //CODE HERE
-
+const status = {
+    description: `tells me about the repository`,
+    code: `git status`,
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -62,7 +68,10 @@ const init = {
 */
 
 //CODE HERE
-
+const add = {
+    description: `adds files to be tracked`,
+    code: `git add EXAMPLE.File`,
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -70,7 +79,10 @@ const init = {
 */
 
 //CODE HERE
-
+const commit = {
+    description: `creates a snapshot of files that im tracking`,
+    code: `git commit`,
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -79,3 +91,7 @@ const init = {
 */
 
 //CODE HERE
+const push = {
+    description: `sends the local commits of code to Github repository`,
+    code: `git push REPO_NAME`,
+}
